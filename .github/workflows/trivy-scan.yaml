@@ -33,3 +33,4 @@ jobs:
           format: 'sarif'
           scan-ref: 'charts/hello-world'
           output: 'trivy-results.sarif'
+          severity: medium
