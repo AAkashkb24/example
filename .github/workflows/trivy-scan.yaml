@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - feature/sre-1405
+      - main
 
 jobs:
   trivy-scan:
