@@ -34,5 +34,5 @@ jobs:
           scan-type: 'config'
           hide-progress: false
           format: 'sarif'
-          scan-ref: '.helm'
+          scan-ref: 'charts/hello-world'
           output: 'trivy-results.sarif'
