@@ -34,3 +34,10 @@ jobs:
           scan-ref: 'charts/hello-world'
           output: 'trivy-results.sarif'
           severity: medium
+          
+      - name: Upload Trivy report
+        uses: actions/upload-artifact@v2
+        with:
+         name: Trivy Report
+         path: trivy-report.json
+
