@@ -37,4 +37,4 @@ jobs:
           
       - name: Get report data
         run: |
-          cat triveyreport.json
+          cat .github/workflows/triveyreport.json
